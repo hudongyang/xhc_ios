@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109770576D91DBAA147FCD4A71B7AE32 /* TBCityIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EDF51FB41D5FC37E5E77508F6629DD /* TBCityIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284B8444738DACCC4683F759216FFB70 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CBA088CF303A5314804C0042008086 /* UIImage+TBCityIconFont.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4119C966535EDDCB3E10D289BFC617B3 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9709E790C692B5019FE85D78C0AD84FA /* TBCityIconFont.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41E29D69B45F755A05BE15FFFD8E6084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5053CAA5EA671F27A1DC203920C16469 /* TBCityIconInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E2412377B776DE2A7C2C1247EB2CFA /* TBCityIconInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555FD0463882751124B273F967B6D2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		736FB4A1C4F8AD0046684F1F95ACA62E /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D588727120BEFC1306514D9DAE88834 /* TBCityIconInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		84D9034A13DC27DFCBE81E53FFABB067 /* Pods-xhc_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1591AD88133314B98553C3E2141C8B5 /* Pods-xhc_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		882AF0EE7BDFE8E6321EA5D1C500FD8E /* IconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B0045AF5A44F29B6D1587CDDB5B4C6 /* IconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB93E1B0B3F0239C86F7342603AF1BD /* Pods-xhc_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A865FDA1F881DF7B15DF8EA22E406 /* Pods-xhc_ios-dummy.m */; };
+		AFD24D28565A52171EB8DF7493E3DEAF /* IconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85C8AD5DD391F069E4F2C5BC2A072F3 /* IconFont-dummy.m */; };
+		CD1F138A59B25C706C2980641B4A6F3C /* UIImage+TBCityIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = F11E248D4DD16978E1DE0A17D9CBBF18 /* UIImage+TBCityIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8F8BAF9A2619C90BB5B72133ADF9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541B8F0FD46D5E01CB1979FB97F6124A;
+			remoteInfo = IconFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D0013894D9D946CF498179118665BD /* IconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconFont-prefix.pch"; sourceTree = "<group>"; };
+		2D588727120BEFC1306514D9DAE88834 /* TBCityIconInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBCityIconInfo.m; path = IconFont/IconFont/TBCityIconInfo.m; sourceTree = "<group>"; };
+		2DA6887B888019F7E9AAC1BE1E18717F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CBA088CF303A5314804C0042008086 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBCityIconFont.m"; path = "IconFont/IconFont/UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		3B916E2E035CA28C7231105F58BA0ADD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B0045AF5A44F29B6D1587CDDB5B4C6 /* IconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IconFont-umbrella.h"; sourceTree = "<group>"; };
+		4CAFD3EB4ACE1E650B319671B57176A6 /* Pods-xhc_ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xhc_ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		55BFF2062B99A8EED93B7AB88AD311EF /* Pods-xhc_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xhc_ios.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F9ACCED947F19CAF47B046281D8B0FD /* IconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IconFont.modulemap; sourceTree = "<group>"; };
+		7401590D0FCB8FB638846D608501A37F /* IconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IconFont.xcconfig; sourceTree = "<group>"; };
+		8E9A9E6E8729578264B7D41C97CFF2F3 /* Pods-xhc_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xhc_ios.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9709E790C692B5019FE85D78C0AD84FA /* TBCityIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBCityIconFont.m; path = IconFont/IconFont/TBCityIconFont.m; sourceTree = "<group>"; };
+		979489ED29A74EBA0BBC6AD899C006FD /* Pods-xhc_ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xhc_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A09A865FDA1F881DF7B15DF8EA22E406 /* Pods-xhc_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xhc_ios-dummy.m"; sourceTree = "<group>"; };
+		A1812A3B0A0BD72351FFD505C1779463 /* IconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IconFont.framework; path = IconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EDF51FB41D5FC37E5E77508F6629DD /* TBCityIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBCityIconFont.h; path = IconFont/IconFont/TBCityIconFont.h; sourceTree = "<group>"; };
+		A80F3F92D96A59F3C1DA6160FBA0DC27 /* Pods-xhc_ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xhc_ios-frameworks.sh"; sourceTree = "<group>"; };
+		AAB52FFC39511869D20FE4B26A2CEA08 /* Pods_xhc_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xhc_ios.framework; path = "Pods-xhc_ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85C8AD5DD391F069E4F2C5BC2A072F3 /* IconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IconFont-dummy.m"; sourceTree = "<group>"; };
+		BA6AA5DEA697CA0C8B7250108E816BBA /* Pods-xhc_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xhc_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C1591AD88133314B98553C3E2141C8B5 /* Pods-xhc_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xhc_ios-umbrella.h"; sourceTree = "<group>"; };
+		C9E2412377B776DE2A7C2C1247EB2CFA /* TBCityIconInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBCityIconInfo.h; path = IconFont/IconFont/TBCityIconInfo.h; sourceTree = "<group>"; };
+		D622547D3EEC7C9005EC27577D27C1BA /* Pods-xhc_ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xhc_ios-resources.sh"; sourceTree = "<group>"; };
+		F11E248D4DD16978E1DE0A17D9CBBF18 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBCityIconFont.h"; path = "IconFont/IconFont/UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1210FE9B6E5D377E18C6394483007F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555FD0463882751124B273F967B6D2EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294D42F0DD86E68DC8D505CF38F67296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E29D69B45F755A05BE15FFFD8E6084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B3BF69E7A2637637964465B294CAF0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E03D18558BE350F5AF81442020B6696E /* IconFont */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71EE888838C1172CE018F6A3B6B3889D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1812A3B0A0BD72351FFD505C1779463 /* IconFont.framework */,
+				AAB52FFC39511869D20FE4B26A2CEA08 /* Pods_xhc_ios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B3BF69E7A2637637964465B294CAF0F /* Pods */,
+				71EE888838C1172CE018F6A3B6B3889D /* Products */,
+				8D9AAC8AE3F985691EE593E4B595A98C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9AAC8AE3F985691EE593E4B595A98C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31603F8368564F94328F50E41A3ECB4 /* Pods-xhc_ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03D18558BE350F5AF81442020B6696E /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				A6EDF51FB41D5FC37E5E77508F6629DD /* TBCityIconFont.h */,
+				9709E790C692B5019FE85D78C0AD84FA /* TBCityIconFont.m */,
+				C9E2412377B776DE2A7C2C1247EB2CFA /* TBCityIconInfo.h */,
+				2D588727120BEFC1306514D9DAE88834 /* TBCityIconInfo.m */,
+				F11E248D4DD16978E1DE0A17D9CBBF18 /* UIImage+TBCityIconFont.h */,
+				37CBA088CF303A5314804C0042008086 /* UIImage+TBCityIconFont.m */,
+				ED6C98C19B1FE474511CDD629C485A55 /* Support Files */,
+			);
+			name = IconFont;
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+		E31603F8368564F94328F50E41A3ECB4 /* Pods-xhc_ios */ = {
+			isa = PBXGroup;
+			children = (
+				2DA6887B888019F7E9AAC1BE1E18717F /* Info.plist */,
+				55BFF2062B99A8EED93B7AB88AD311EF /* Pods-xhc_ios.modulemap */,
+				979489ED29A74EBA0BBC6AD899C006FD /* Pods-xhc_ios-acknowledgements.markdown */,
+				4CAFD3EB4ACE1E650B319671B57176A6 /* Pods-xhc_ios-acknowledgements.plist */,
+				A09A865FDA1F881DF7B15DF8EA22E406 /* Pods-xhc_ios-dummy.m */,
+				A80F3F92D96A59F3C1DA6160FBA0DC27 /* Pods-xhc_ios-frameworks.sh */,
+				D622547D3EEC7C9005EC27577D27C1BA /* Pods-xhc_ios-resources.sh */,
+				C1591AD88133314B98553C3E2141C8B5 /* Pods-xhc_ios-umbrella.h */,
+				BA6AA5DEA697CA0C8B7250108E816BBA /* Pods-xhc_ios.debug.xcconfig */,
+				8E9A9E6E8729578264B7D41C97CFF2F3 /* Pods-xhc_ios.release.xcconfig */,
+			);
+			name = "Pods-xhc_ios";
+			path = "Target Support Files/Pods-xhc_ios";
+			sourceTree = "<group>";
+		};
+		ED6C98C19B1FE474511CDD629C485A55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9ACCED947F19CAF47B046281D8B0FD /* IconFont.modulemap */,
+				7401590D0FCB8FB638846D608501A37F /* IconFont.xcconfig */,
+				B85C8AD5DD391F069E4F2C5BC2A072F3 /* IconFont-dummy.m */,
+				04D0013894D9D946CF498179118665BD /* IconFont-prefix.pch */,
+				44B0045AF5A44F29B6D1587CDDB5B4C6 /* IconFont-umbrella.h */,
+				3B916E2E035CA28C7231105F58BA0ADD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IconFont";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F107637CF24DEE435305866E46CB2C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9034A13DC27DFCBE81E53FFABB067 /* Pods-xhc_ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C555535FDA33265D82F71592CF74FBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882AF0EE7BDFE8E6321EA5D1C500FD8E /* IconFont-umbrella.h in Headers */,
+				109770576D91DBAA147FCD4A71B7AE32 /* TBCityIconFont.h in Headers */,
+				5053CAA5EA671F27A1DC203920C16469 /* TBCityIconInfo.h in Headers */,
+				CD1F138A59B25C706C2980641B4A6F3C /* UIImage+TBCityIconFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		541B8F0FD46D5E01CB1979FB97F6124A /* IconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AF480D032676EDFFC7637DB18421C7 /* Build configuration list for PBXNativeTarget "IconFont" */;
+			buildPhases = (
+				81D6259C0A04A79312DC31F526E5B87A /* Sources */,
+				294D42F0DD86E68DC8D505CF38F67296 /* Frameworks */,
+				2C555535FDA33265D82F71592CF74FBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFont;
+			productName = IconFont;
+			productReference = A1812A3B0A0BD72351FFD505C1779463 /* IconFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		802EA86964BA990EAD8B61A8764EB12D /* Pods-xhc_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05EBB29C9BE40DF780B42D743C220E0 /* Build configuration list for PBXNativeTarget "Pods-xhc_ios" */;
+			buildPhases = (
+				AD822D48A19EF16B738A00C634DEC064 /* Sources */,
+				1210FE9B6E5D377E18C6394483007F3C /* Frameworks */,
+				1F107637CF24DEE435305866E46CB2C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD8238252DB475D889F93C0443A12E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-xhc_ios";
+			productName = "Pods-xhc_ios";
+			productReference = AAB52FFC39511869D20FE4B26A2CEA08 /* Pods_xhc_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 71EE888838C1172CE018F6A3B6B3889D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541B8F0FD46D5E01CB1979FB97F6124A /* IconFont */,
+				802EA86964BA990EAD8B61A8764EB12D /* Pods-xhc_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D6259C0A04A79312DC31F526E5B87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD24D28565A52171EB8DF7493E3DEAF /* IconFont-dummy.m in Sources */,
+				4119C966535EDDCB3E10D289BFC617B3 /* TBCityIconFont.m in Sources */,
+				736FB4A1C4F8AD0046684F1F95ACA62E /* TBCityIconInfo.m in Sources */,
+				284B8444738DACCC4683F759216FFB70 /* UIImage+TBCityIconFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD822D48A19EF16B738A00C634DEC064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB93E1B0B3F0239C86F7342603AF1BD /* Pods-xhc_ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD8238252DB475D889F93C0443A12E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IconFont;
+			target = 541B8F0FD46D5E01CB1979FB97F6124A /* IconFont */;
+			targetProxy = BB8F8BAF9A2619C90BB5B72133ADF9DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		285960FAD437FDEA53EA309D569D5C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6AA5DEA697CA0C8B7250108E816BBA /* Pods-xhc_ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xhc_ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xhc_ios/Pods-xhc_ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C409F7470D4D52AE9A6D5C616254973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7401590D0FCB8FB638846D608501A37F /* IconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IconFont/IconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IconFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IconFont/IconFont.modulemap";
+				PRODUCT_MODULE_NAME = IconFont;
+				PRODUCT_NAME = IconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BCF3934EECA77004314E64168C1826F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9A9E6E8729578264B7D41C97CFF2F3 /* Pods-xhc_ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xhc_ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xhc_ios/Pods-xhc_ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCC45A6241C7902DBEB858D8B33AA849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7401590D0FCB8FB638846D608501A37F /* IconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IconFont/IconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IconFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IconFont/IconFont.modulemap";
+				PRODUCT_MODULE_NAME = IconFont;
+				PRODUCT_NAME = IconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05EBB29C9BE40DF780B42D743C220E0 /* Build configuration list for PBXNativeTarget "Pods-xhc_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285960FAD437FDEA53EA309D569D5C29 /* Debug */,
+				8BCF3934EECA77004314E64168C1826F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AF480D032676EDFFC7637DB18421C7 /* Build configuration list for PBXNativeTarget "IconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC45A6241C7902DBEB858D8B33AA849 /* Debug */,
+				3C409F7470D4D52AE9A6D5C616254973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

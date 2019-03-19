@@ -11,6 +11,16 @@
 		079EAB872237336E0043521D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079EAB862237336E0043521D /* Assets.xcassets */; };
 		079EAB8A2237336E0043521D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079EAB882237336E0043521D /* LaunchScreen.storyboard */; };
 		079EAB8D2237336E0043521D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EAB8C2237336E0043521D /* main.m */; };
+		079EAB97223736D50043521D /* StoreHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EAB96223736D50043521D /* StoreHomeViewController.m */; };
+		079EAB9A223736E70043521D /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EAB99223736E70043521D /* CartViewController.m */; };
+		079EABA3223799850043521D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EABA2223799850043521D /* HomeViewController.m */; };
+		079EABA722379A850043521D /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EABA622379A850043521D /* MemberViewController.m */; };
+		079EABAB22379AD90043521D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EABAA22379AD90043521D /* MyViewController.m */; };
+		079EABAD2237A4650043521D /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 079EABAC2237A4650043521D /* iconfont.ttf */; };
+		079EABB12237BB970043521D /* IconUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EABB02237BB970043521D /* IconUtil.m */; };
+		079EABB9223883F20043521D /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EABB8223883F20043521D /* UIColor+Extensions.m */; };
+		079EABBC2239DB390043521D /* SearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EABBB2239DB390043521D /* SearchBarView.m */; };
+		4F0B81C6B63C833D51F8D388 /* Pods_xhc_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96713ECD5D17FEE0335564 /* Pods_xhc_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,26 @@
 		079EAB892237336E0043521D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		079EAB8B2237336E0043521D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		079EAB8C2237336E0043521D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		079EAB95223736D50043521D /* StoreHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreHomeViewController.h; sourceTree = "<group>"; };
+		079EAB96223736D50043521D /* StoreHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreHomeViewController.m; sourceTree = "<group>"; };
+		079EAB98223736E70043521D /* CartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		079EAB99223736E70043521D /* CartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		079EABA1223799850043521D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		079EABA2223799850043521D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		079EABA522379A850043521D /* MemberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		079EABA622379A850043521D /* MemberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
+		079EABA922379AD90043521D /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		079EABAA22379AD90043521D /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		079EABAC2237A4650043521D /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		079EABAF2237BB970043521D /* IconUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconUtil.h; sourceTree = "<group>"; };
+		079EABB02237BB970043521D /* IconUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconUtil.m; sourceTree = "<group>"; };
+		079EABB7223883F20043521D /* UIColor+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		079EABB8223883F20043521D /* UIColor+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		079EABBA2239DB390043521D /* SearchBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBarView.h; sourceTree = "<group>"; };
+		079EABBB2239DB390043521D /* SearchBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBarView.m; sourceTree = "<group>"; };
+		2E01A2EEE4793B161A297B9E /* Pods-xhc_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xhc_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xhc_ios/Pods-xhc_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C0DE3EC3514F517F6F2807 /* Pods-xhc_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xhc_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-xhc_ios/Pods-xhc_ios.release.xcconfig"; sourceTree = "<group>"; };
+		DF96713ECD5D17FEE0335564 /* Pods_xhc_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xhc_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0B81C6B63C833D51F8D388 /* Pods_xhc_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +70,8 @@
 			children = (
 				079EAB822237336C0043521D /* xhc_ios */,
 				079EAB812237336C0043521D /* Products */,
+				415A9B565E9A6E48AF8B14DF /* Pods */,
+				FFF375E39E8BFD81AFF92562 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +86,96 @@
 		079EAB822237336C0043521D /* xhc_ios */ = {
 			isa = PBXGroup;
 			children = (
+				079EABAE2237AFAD0043521D /* lib */,
+				079EABA822379ACF0043521D /* my */,
+				079EABA422379A740043521D /* member */,
+				079EABA0223798650043521D /* home */,
+				079EAB942237368D0043521D /* cart */,
+				079EAB932237367C0043521D /* store */,
+				079EAB862237336E0043521D /* Assets.xcassets */,
 				079EAB832237336C0043521D /* AppDelegate.h */,
 				079EAB842237336C0043521D /* AppDelegate.m */,
-				079EAB862237336E0043521D /* Assets.xcassets */,
 				079EAB882237336E0043521D /* LaunchScreen.storyboard */,
 				079EAB8B2237336E0043521D /* Info.plist */,
 				079EAB8C2237336E0043521D /* main.m */,
+				079EABAC2237A4650043521D /* iconfont.ttf */,
 			);
 			path = xhc_ios;
+			sourceTree = "<group>";
+		};
+		079EAB932237367C0043521D /* store */ = {
+			isa = PBXGroup;
+			children = (
+				079EAB95223736D50043521D /* StoreHomeViewController.h */,
+				079EAB96223736D50043521D /* StoreHomeViewController.m */,
+				079EABBA2239DB390043521D /* SearchBarView.h */,
+				079EABBB2239DB390043521D /* SearchBarView.m */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		079EAB942237368D0043521D /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				079EAB98223736E70043521D /* CartViewController.h */,
+				079EAB99223736E70043521D /* CartViewController.m */,
+			);
+			path = cart;
+			sourceTree = "<group>";
+		};
+		079EABA0223798650043521D /* home */ = {
+			isa = PBXGroup;
+			children = (
+				079EABA1223799850043521D /* HomeViewController.h */,
+				079EABA2223799850043521D /* HomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		079EABA422379A740043521D /* member */ = {
+			isa = PBXGroup;
+			children = (
+				079EABA522379A850043521D /* MemberViewController.h */,
+				079EABA622379A850043521D /* MemberViewController.m */,
+			);
+			path = member;
+			sourceTree = "<group>";
+		};
+		079EABA822379ACF0043521D /* my */ = {
+			isa = PBXGroup;
+			children = (
+				079EABA922379AD90043521D /* MyViewController.h */,
+				079EABAA22379AD90043521D /* MyViewController.m */,
+			);
+			path = my;
+			sourceTree = "<group>";
+		};
+		079EABAE2237AFAD0043521D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				079EABAF2237BB970043521D /* IconUtil.h */,
+				079EABB02237BB970043521D /* IconUtil.m */,
+				079EABB7223883F20043521D /* UIColor+Extensions.h */,
+				079EABB8223883F20043521D /* UIColor+Extensions.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		415A9B565E9A6E48AF8B14DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E01A2EEE4793B161A297B9E /* Pods-xhc_ios.debug.xcconfig */,
+				D6C0DE3EC3514F517F6F2807 /* Pods-xhc_ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFF375E39E8BFD81AFF92562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF96713ECD5D17FEE0335564 /* Pods_xhc_ios.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 079EAB902237336E0043521D /* Build configuration list for PBXNativeTarget "xhc_ios" */;
 			buildPhases = (
+				D9C578DEC8BF867C7411141D /* [CP] Check Pods Manifest.lock */,
 				079EAB7C2237336C0043521D /* Sources */,
 				079EAB7D2237336C0043521D /* Frameworks */,
 				079EAB7E2237336C0043521D /* Resources */,
+				0B598DF4797CB78E4454B933 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,18 +239,66 @@
 			files = (
 				079EAB872237336E0043521D /* Assets.xcassets in Resources */,
 				079EAB8A2237336E0043521D /* LaunchScreen.storyboard in Resources */,
+				079EABAD2237A4650043521D /* iconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B598DF4797CB78E4454B933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-xhc_ios/Pods-xhc_ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IconFont/IconFont.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IconFont.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xhc_ios/Pods-xhc_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C578DEC8BF867C7411141D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xhc_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		079EAB7C2237336C0043521D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079EAB9A223736E70043521D /* CartViewController.m in Sources */,
 				079EAB8D2237336E0043521D /* main.m in Sources */,
 				079EAB852237336C0043521D /* AppDelegate.m in Sources */,
+				079EABA3223799850043521D /* HomeViewController.m in Sources */,
+				079EABBC2239DB390043521D /* SearchBarView.m in Sources */,
+				079EABB12237BB970043521D /* IconUtil.m in Sources */,
+				079EABB9223883F20043521D /* UIColor+Extensions.m in Sources */,
+				079EABA722379A850043521D /* MemberViewController.m in Sources */,
+				079EAB97223736D50043521D /* StoreHomeViewController.m in Sources */,
+				079EABAB22379AD90043521D /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +430,7 @@
 		};
 		079EAB912237336E0043521D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E01A2EEE4793B161A297B9E /* Pods-xhc_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -282,6 +448,7 @@
 		};
 		079EAB922237336E0043521D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C0DE3EC3514F517F6F2807 /* Pods-xhc_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

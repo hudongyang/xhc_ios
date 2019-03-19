@@ -1,0 +1,16 @@
+PODS:
+  - IconFont (0.0.2)
+
+DEPENDENCIES:
+  - IconFont (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IconFont
+
+SPEC CHECKSUMS:
+  IconFont: 2ea71fd37ea03acdb6025050dd36318de9fa37d9
+
+PODFILE CHECKSUM: 82415bf00abb0073750b302377684dd6af05ea5e
+
+COCOAPODS: 1.5.3
